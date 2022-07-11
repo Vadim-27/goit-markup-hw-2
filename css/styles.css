@@ -1,0 +1,282 @@
+
+:root {
+    --primary-font:'Roboto',  sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primari-font-weight: 400;
+    --secondary-font-weigh: 700;
+    --primari-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+/*====================  COMPONENTS  ===============*/
+.filter-btn {
+    font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/*====================  /COMPONENTS  ===============*/
+
+/*====================  Heder  ===============*/
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: var(--secondary-font-weigh);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+.second-color-logo {
+    color: #2196F3;
+}
+.menu-link {
+    font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: var(--secondary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+   color:  var(--accent-color);
+}
+
+.contact-phone-number{
+    color: #757575;
+}
+
+.contact-mail{
+    color: #757575;
+}
+
+/*====================  Heder  ===============*/
+
+/*====================  Hero ===============*/
+.hero{
+    background-color: #2F303A;
+}
+.main-title{
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+      
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.modal-btn {
+    font-family: var(--primary-font);
+        font-weight: var(--secondary-font-weigh);
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+    
+        color: #FFFFFF;
+        background-color: #2196F3;
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    font-family: var(--primary-font);
+        font-weight: var(--secondary-font-weigh);
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+    
+        border: 1px solid #000000;
+        background: #188CE8;
+}
+
+/*====================  Hero  ===============*/
+
+/*====================  Our advantages  ===============*/
+
+.advantage-title{
+        font-weight: var(--secondary-font-weigh);
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: var(--secondary-text-color);
+}
+.advantage-text{
+    
+        font-weight: var(--primari-font-weight);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: var(--primari-text-color);
+}
+
+/*====================  /Our advantages  ===============*/
+
+/*====================  specialization  ===============*/
+
+.specialization-title{
+    
+        font-weight: var(--secondary-font-weigh);
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/*====================  /specialization  ===============*/
+
+/*====================  employees  ===============*/
+
+.employees-title{
+    
+        font-weight: var(--secondary-font-weigh);
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+}
+
+.employees-name{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+} 
+.employees-specialization{
+    font-weight: var(--primari-font-weight);
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--primari-text-color);
+}
+
+/*====================  /employees  ===============*/
+
+/*====================  Footer  ===============*/
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: var(--secondary-font-weigh);
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+
+    /* color: #FFFFFF; */
+}
+
+.second-color-logo {
+    color: #2196F3;
+}
+
+.menu-link-footer{
+    font-family: var(--primary-font);
+        font-weight: var(--primari-font-weight);
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+
+
+}
+
+.menu-link-footer:hover,
+.menu-link-footer:focus{
+    color: var(--secondary-text-color);
+}
+
+.address-maps{
+    /* color: #FFFFFF; */
+}
+
+.contact-mail-footer{
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.contact-phone-number-footer{
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+/*====================  /Footer  ===============*/
+
+
+
+/* ===============               ================= */
+/* ===============  second page  ================= */
+/* ===============               ================= */
+
+
+/* ================  portfolio  ================== */
+
+.project-name{
+    font-family: var(--primary-font);
+        font-weight: var(--secondary-font-weigh);
+        font-size: 18px;
+        line-height: 2;
+
+        letter-spacing: 0.06em;
+    
+        color: var(--secondary-text-color);
+
+}
+
+.project-type{
+    font-family: var(--primary-font);
+        font-weight: var(-primari-font-weight);
+        font-size: 16px;
+        line-height: 1.89;
+        letter-spacing: 0.03em;
+    
+        color: var(--primari-text-color);
+}
